@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd">
+
+    <view-state id="ChoiseDictView" view="jsp/index.jsp" model="models/Dictionary">
+        <transition on="performChoiseDict" to="performChoiseDictAction" />
+    </view-state>
+
+    <view-state id="performChoiseDictAction">
+
+        <transition on="true" to="displayDict" />
+
+    </view-state>
+
+    <view-state id="displayDict" view="jsp/dict.jsp" model="Dictionary"/>
+</flow>
