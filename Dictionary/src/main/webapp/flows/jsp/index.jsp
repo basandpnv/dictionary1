@@ -20,7 +20,7 @@
 
 <h1>Выбор словаря</h1>
 
-<form action="ChoiseDict" method="post">
+<form  action="dict.jsp"  method="post">
 
     <p>
 

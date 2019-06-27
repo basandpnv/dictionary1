@@ -10,22 +10,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Англо-русский словарь</title>
+    <title>Словарь</title>
 
 </head>
 
 <body>
-
-<h1>Описание словаря</h1>
+<h1>Англо-русский словарь</h1>
+<h3>Описание словаря</h3>
 <form>
     <div class="search">
-        <input type="search" name="q">
+        <input type="search" name="q" value="Поиск по ключу">
         <input type="submit" value="">
     </div>
 </form>
 <form>
     <div class="search">
-        <input type="search" name="q">
+        <input type="search" name="q" value="Поиск по значению">
         <input type="submit" value="">
     </div>
 </form>
