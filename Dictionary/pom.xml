@@ -35,6 +35,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>SpringWebFlowExample</finalName>
+        <finalName>Dictionary</finalName>
     </build>
 </project>
